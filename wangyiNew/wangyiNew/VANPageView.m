@@ -32,7 +32,7 @@
 }
 - (void)setupUI{
     
-    NSArray *titles = @[@"大王",@"小王",@"黑桃A",@"红桃",@"方块",@"梅花",@"麻将"];
+    NSArray *titles = @[@"大王",@"小王后",@"黑桃A",@"红桃",@"方块",@"梅花",@"麻将"];
     
     VANTitleBar *bar = [[VANTitleBar alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, 44.0) titles:titles];
     self.bar = bar;
