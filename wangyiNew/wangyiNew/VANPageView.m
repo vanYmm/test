@@ -51,7 +51,10 @@
 - (void)test{
     NSLog(@"在dev_van上增加了test");
 }
+- (void)addOBJ{
+    NSLog(@"增加obj_master");
 
+}
 - (void)btnInTitleBarTopEvent:(VANTitleBar *)bar selectIndex:(NSInteger)selectIndex{
 
     UIViewController *vc = self.parentVc.childViewControllers[selectIndex];
