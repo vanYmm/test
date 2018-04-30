@@ -47,7 +47,9 @@
 - (void)run{
     NSLog(@"在master上增加了一个run方法");
 }
-
+- (void)test{
+    NSLog(@"在dev_van上增加了test");
+}
 - (void)btnInTitleBarTopEvent:(VANTitleBar *)bar selectIndex:(NSInteger)selectIndex{
 
     UIViewController *vc = self.parentVc.childViewControllers[selectIndex];
