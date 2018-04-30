@@ -53,6 +53,7 @@
 }
 - (void)addOBJ{
     NSLog(@"增加obj_master");
+    NSLog(@"在dev_van上");
 
 }
 - (void)btnInTitleBarTopEvent:(VANTitleBar *)bar selectIndex:(NSInteger)selectIndex{
