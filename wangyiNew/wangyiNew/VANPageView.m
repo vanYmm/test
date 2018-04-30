@@ -47,8 +47,13 @@
 - (void)run{
     NSLog(@"在master上增加了一个run方法");
 }
+
 - (void)test{
     NSLog(@"在dev_van上增加了test");
+}
+- (void)addOBJ{
+    NSLog(@"增加obj_master");
+
 }
 - (void)btnInTitleBarTopEvent:(VANTitleBar *)bar selectIndex:(NSInteger)selectIndex{
 
