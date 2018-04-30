@@ -44,10 +44,10 @@
     [self addSubview:contentView];
     
 }
-- (void)test{
-    NSLog(@"在dev_van分支上test");
-
+- (void)run{
+    NSLog(@"在master上增加了一个run方法");
 }
+
 - (void)btnInTitleBarTopEvent:(VANTitleBar *)bar selectIndex:(NSInteger)selectIndex{
 
     UIViewController *vc = self.parentVc.childViewControllers[selectIndex];
